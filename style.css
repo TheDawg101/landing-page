@@ -1,0 +1,167 @@
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: rgb(100,100,100);
+}
+
+.footer, .header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.logo {
+    height: auto;
+    width: 150px;
+    margin-left: 16px;
+}
+
+.dog {
+    height: 225px;
+    width: auto;
+}
+
+ul {
+   list-style: none; 
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   margin-right: 16px;
+   cursor:pointer;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 25px;
+    width: 90px;
+    margin-top: 8px;
+    cursor:pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+    border: 0;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#meet {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.info {
+ display: flex;
+ flex-direction: column;
+ font-size: 14px;
+ align-items: center;
+ max-width: 125px;
+ text-align: center;
+ margin-bottom: 25px;
+}
+
+.second .img {
+    width: 125px;
+    height: 125px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 150px;
+}
+
+#quote {
+    font-size: 20px;
+}
+
+#quote-name {
+    align-self: flex-end;
+}
+
+.fourth {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    gap: 10%;
+    padding: 50px;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.c-action {
+    margin: 0;
+}
+
+#action-btn {
+    border: 1px solid white;
+    align-content: center;  
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
